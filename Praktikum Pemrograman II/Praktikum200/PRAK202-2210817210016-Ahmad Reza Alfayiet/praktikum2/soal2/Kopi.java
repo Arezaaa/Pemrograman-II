@@ -8,7 +8,7 @@ public class Kopi {
 	double pajak;
 	
 	public void info() {
-		System.out.println("namaKopi Kopi: " + namaKopi
+		System.out.println("Nama Kopi: " + namaKopi
 							+ "\nUkuran: " + ukuran
 							+ "\nHarga: Rp. " + harga);
 	}
