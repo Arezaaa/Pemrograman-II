@@ -1,17 +1,23 @@
 package soal1;
 
+import java.util.Scanner;
+
 public class HewanPeliharaan {
 	
 	private String nama, ras;
+	Scanner input = new Scanner(System.in);
 
 	public HewanPeliharaan(String nama, String ras) {
 		this.nama = nama;
 		this.ras = ras;
-		System.out.println("Nama Hewan Peliharaan: " + nama + "\nRas: " + ras + "\n");
 	}
 
 	public void display() {
-		System.out.println("Detail Hewan Peliharaan:\nNama hewan peliharaanku adalah : " + nama 
+		System.out.print("Nama hewan peliharaan: ");
+		nama = input.nextLine();
+		System.out.print("Ras: ");
+		ras = input.nextLine();
+		System.out.println("\nDetail Hewan Peliharaan:\nNama hewan peliharaanku adalah : " + nama 
 							+ "\nDengan ras : " + ras);
 	}
 }
