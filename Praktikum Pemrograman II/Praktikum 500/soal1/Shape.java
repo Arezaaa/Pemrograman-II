@@ -10,5 +10,5 @@ public abstract class Shape {
 	protected abstract double area();
 	public String toString() {
 		return shapeName;
-	};
+	}
 }
